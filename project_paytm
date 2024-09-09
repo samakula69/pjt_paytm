@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm APP</title>
+    <style>
+        a{text-decoration: none;
+        color: black;
+    font-size: 1.1rem;
+font-weight: bold;
+font-family: sans-serif;}
+        .navbar{display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding:0.5% 2%;
+        position: sticky;
+        top: 20px;
+        background-color: rgb(180, 171, 171);
+
+        }
+        .navbar .signin{background-color: #00baf2;
+        color: white;width: 8%;
+    padding: 8px 0px 8px 5px;
+border-radius: 25px;
+text-align: center;}
+    /* .signin .fa-user{
+        background-color: #002970;
+        border-radius: 25px;
+        padding: 10px;
+    } */
+    .signin:hover{background-color: #002970;}
+    .signin:hover .fa-user{background-color: #00baf2;}
+    .container{ background-color: #00baf2;font-size: 150%;height: 400px;}
+    .box{display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: flex-end;
+        font: bolder;
+        font-size: xx-large;
+        padding: 10px 10px 10px 10px;
+        border-radius: 100px;
+        top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <a href="">
+                <img src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo.svg" alt="Paytm log"/>
+            </a>
+            <a href="">for Consumers</a>
+            <a href="">Paytm for Business</a>
+            <a href="">Investor Relations</a>
+            <a href="">Company</a>
+            <a href="">Career</a>
+            <a href="" class="signin"><span>Signin</span> <i class="fa-solid fa-user"></i></a>
+
+        </nav>
+    </div>
+    <div class="container">
+    <h1>Recharge & Pay Bills on Paytm.</h1></br>
+    <div class="box">
+        <a href="" class="box box-1"style="color: white;"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733299/1626251017535.png" height="100px" width="100px"/>Recharge Prepaid Mobile</a>
+        <a href="" class="box box-2"style="color: white;"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733308/1626251043534.png" height="100px" width="100px"/> Pay Electricity Bill</a>
+        <a href="" class="box box-3"style="color: white;"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png" height="100px" width="100px"/> Recharge DTH Connection</a>
+        <a href="" class="box box-4"style="color: white;"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png" height="100px" width="100px"/> Book Gas Cylinder</a>
+        <a href="" class="box box-5"style="color: white;"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269194/1672827522093.png" height="100px" width="100px"/> Pay Broadband& Landline Bill</a>
+        <a href="" class="box box-6"style="color: white;"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269198/1672828917034.png" height="100px" width="100px"/> Pay Education Fee</a>
+        <a href="" class="box box-7"style="color: white;"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/757701/1626268580682.png" height="100px" width="100px"/> All Payment Services</a>
+    </div></div>
+    <div class="download"style="width: 100%;">
+    <div class="s1"style="width: 40%; height: 100px; float: left;"></br></br></br></br></br></br><img src="https://assetscdn1.paytm.com/images/catalog/view/310944/1697527183231.png"height="100px" width="100px" /></br>
+        <p style="font-size:100px;font-weight: bolder;">India's Most-loved Payments App</p>
+        <p style="font-size: 30px;"> Recharge & pay bills, book flights & movie tickets, invest in stocks & mutual funds, and do a lot more.</p>
+    </div>
+    <div class="s2" style="margin-left: 50%; height: 100px; float: right;">
+        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/850762/1715933362922.png"height="700px" width="700px">
+    </div>
+</div>
+</body>
+</html>
